@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import "./globals.css";
+import FloatingBackground from "@/components/ui/FloatingBackground";
 
 export const metadata: Metadata = {
   title: "Pack de Pareamento ABA | UniversoTEA — 108 Cards para Crianças com TEA",
@@ -20,7 +21,10 @@ export const metadata: Metadata = {
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
     <html lang="pt-BR">
-      <body>{children}</body>
+      <body className="relative">
+        <FloatingBackground />
+        <div className="relative z-10">{children}</div>
+      </body>
     </html>
   );
 }
