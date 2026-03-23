@@ -1,2 +1,5 @@
 node_modules
 node_modules
+
+# logo folder (copied to public/images)
+/logo/

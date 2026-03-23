@@ -9,8 +9,15 @@ export default function Hero() {
       <div className="max-w-5xl mx-auto text-center flex flex-col items-center gap-8">
 
         <motion.div initial={{ opacity: 0, y: -20 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.6 }}>
-          <div className="w-32 h-32 mx-auto bg-gradient-to-br from-primary to-secondary rounded-full flex items-center justify-center shadow-xl">
-            <span className="text-5xl font-display font-black text-white">🧩</span>
+          <div className="w-48 h-48 mx-auto">
+            <Image 
+              src="/images/logo.png" 
+              alt="UniversoTEA Logo" 
+              width={200} 
+              height={200}
+              priority
+              className="w-full h-full object-contain drop-shadow-2xl"
+            />
           </div>
         </motion.div>
 
