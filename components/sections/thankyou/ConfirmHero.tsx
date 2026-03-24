@@ -65,9 +65,15 @@ export default function ConfirmHero() {
       <motion.div
         initial={{ opacity: 0, y: 30 }} animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.8, delay: 1.1 }}
-        className="mt-10 max-w-3xl mx-auto">
-        <Image src={OBRIGADO_IMG} alt="Obrigado pela compra"
-          width={900} height={500} className="rounded-3xl shadow-xl w-full object-cover" />
+        className="mt-10 max-w-3xl mx-auto relative aspect-video w-full">
+        <Image
+          src={OBRIGADO_IMG}
+          alt="Obrigado pela compra"
+          fill
+          priority
+          sizes="(max-width: 768px) 100vw, (max-width: 1024px) 80vw, 768px"
+          className="rounded-3xl shadow-xl object-contain"
+        />
       </motion.div>
     </section>
   );
