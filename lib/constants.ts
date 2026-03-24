@@ -1,4 +1,4 @@
-export const KIWIFY_URL = "https://pay.kiwify.com.br/LNe6rom";
+export const KIWIFY_URL = "https://pay.kiwify.com.br/FYZiibq";
 
 export const UPSELL_URL = "https://pay.kiwify.com.br/FYZiibq";
 export const WHATSAPP_GROUP = "https://chat.whatsapp.com/SEU_GRUPO";
