@@ -21,11 +21,6 @@ export default function Hero() {
           </div>
         </motion.div>
 
-        <motion.div initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.7, delay: 0.2 }}
-          className="flex items-center gap-2 bg-yellow-100 text-yellow-800 px-3 md:px-4 py-2 rounded-full text-xs md:text-sm font-bold animate-wiggle">
-          ⭐⭐⭐⭐⭐ Mais de 500 famílias e terapeutas já utilizam
-        </motion.div>
-
         <motion.h1
           initial={{ opacity: 0, y: 30 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.8, delay: 0.3 }}
           className="font-display font-black text-2xl sm:text-3xl md:text-5xl lg:text-6xl text-gray-900 leading-tight max-w-3xl px-2">
