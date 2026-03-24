@@ -31,6 +31,9 @@ export default function FinalCTA() {
           </p>
           <CTAButton label="🧩 GARANTIR MEU PACK AGORA — R$37" />
           <p className="text-gray-400 text-sm">🔒 Pagamento seguro • ✅ 7 dias de garantia • 📲 Acesso imediato</p>
+          <p className="text-gray-400 text-[10px] md:text-xs mt-1 leading-relaxed">
+            Material digital protegido por direitos autorais. Uso pessoal e intransferível. Proibido compartilhar, revender, copiar ou redistribuir sem autorização.
+          </p>
           <GuaranteeBadge />
           <p className="text-gray-400 text-xs text-center">
             🌈 <strong>@universo.tea.aba</strong> — Um universo de possibilidades no TEA

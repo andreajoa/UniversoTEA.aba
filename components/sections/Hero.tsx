@@ -39,6 +39,9 @@ export default function Hero() {
           className="w-full max-w-md px-4">
           <CTAButton className="w-full text-sm md:text-base px-6 md:px-10 py-4 md:py-5" />
           <p className="text-gray-400 text-xs md:text-sm mt-3 px-2">🔒 Compra segura • ✅ 7 dias de garantia • 📲 Acesso imediato</p>
+          <p className="text-gray-400 text-[10px] md:text-xs mt-2 px-2 leading-relaxed">
+            Material digital protegido por direitos autorais. Uso pessoal e intransferível. Proibido compartilhar, revender, copiar ou redistribuir sem autorização.
+          </p>
         </motion.div>
 
         <motion.div initial={{ opacity: 0, y: 40 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.9, delay: 0.8 }}
