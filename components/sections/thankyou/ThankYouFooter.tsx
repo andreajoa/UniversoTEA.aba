@@ -38,7 +38,7 @@ export default function ThankYouFooter() {
           <p className="text-gray-400 text-sm">Com carinho,</p>
           <p className="font-display font-black text-primary text-lg">Equipe UniversoTEA 💙</p>
           <a href={INSTAGRAM_URL} target="_blank" rel="noopener noreferrer"
-            className="text-purple-500 text-sm hover:underline">@universotea.aba</a>
+            className="text-purple-500 text-sm hover:underline">@universo.tea.aba</a>
         </motion.div>
 
         <motion.p

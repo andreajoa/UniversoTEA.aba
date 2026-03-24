@@ -33,7 +33,7 @@ export default function FinalCTA() {
           <p className="text-gray-400 text-sm">🔒 Pagamento seguro • ✅ 7 dias de garantia • 📲 Acesso imediato</p>
           <GuaranteeBadge />
           <p className="text-gray-400 text-xs text-center">
-            🌈 <strong>@universoTEA.aba</strong> — Um universo de possibilidades no TEA
+            🌈 <strong>@universo.tea.aba</strong> — Um universo de possibilidades no TEA
           </p>
         </motion.div>
 

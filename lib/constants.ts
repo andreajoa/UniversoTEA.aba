@@ -2,7 +2,7 @@ export const KIWIFY_URL = "https://pay.kiwify.com.br/LNe6rom";
 
 export const UPSELL_URL = "https://pay.kiwify.com.br/LNe6rom"; // trocar pelo link real do upsell
 export const WHATSAPP_GROUP = "https://chat.whatsapp.com/SEU_GRUPO";
-export const INSTAGRAM_URL  = "https://instagram.com/universotea.aba";
+export const INSTAGRAM_URL  = "https://www.instagram.com/universo.tea.aba";
 export const DOWNLOAD_URL   = "https://www.dropbox.com/scl/fo/gwt69qbwcng4vjz0yu4hl/AKqkxlIjURXVrJ11rL-mW4Q?rlkey=mr1qa6ixtb9rqski16sjbcigy&st=92tau44r&dl=0";
 
 export const UPSELL_OFFER = {

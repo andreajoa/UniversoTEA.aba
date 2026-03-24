@@ -45,7 +45,7 @@ export default function Community() {
             className="bg-purple-50 border-2 border-purple-200 rounded-2xl p-6 flex flex-col items-center gap-3 hover:bg-purple-100 transition-colors cursor-pointer">
             <span className="text-5xl">📸</span>
             <p className="font-display font-black text-purple-800 text-lg">Instagram</p>
-            <p className="text-purple-700 text-sm">@universotea.aba — dicas diárias de ABA</p>
+            <p className="text-purple-700 text-sm">@universo.tea.aba — dicas diárias de ABA</p>
             <span className="bg-purple-600 text-white px-4 py-2 rounded-full text-sm font-bold">
               SEGUIR AGORA →
             </span>
