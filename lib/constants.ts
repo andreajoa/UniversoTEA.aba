@@ -5,6 +5,7 @@ export const WHATSAPP_GROUP = "https://chat.whatsapp.com/SEU_GRUPO";
 export const INSTAGRAM_URL  = "https://www.instagram.com/universo.tea.aba";
 
 // Instagram images for Thank You page
+export const OBRIGADO_IMG = "/images/obrigado.png";
 export const INSTAGRAM_CELEBRATION_IMG = "/images/instagram-celebration.jpg";
 export const INSTAGRAM_CARD1_IMG = "/images/instagram-card1.jpg";
 export const INSTAGRAM_CARD2_IMG = "/images/instagram-card2.jpg";

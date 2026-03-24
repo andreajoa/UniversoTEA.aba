@@ -3,7 +3,7 @@ import { useEffect, useState } from "react";
 import { motion }  from "framer-motion";
 import Image       from "next/image";
 import ConfettiEffect from "@/components/ui/ConfettiEffect";
-import { INSTAGRAM_CELEBRATION_IMG } from "@/lib/constants";
+import { OBRIGADO_IMG } from "@/lib/constants";
 
 export default function ConfirmHero() {
   const [showConfetti, setShowConfetti] = useState(true);
@@ -66,7 +66,7 @@ export default function ConfirmHero() {
         initial={{ opacity: 0, y: 30 }} animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.8, delay: 1.1 }}
         className="mt-10 max-w-3xl mx-auto">
-        <Image src={INSTAGRAM_CELEBRATION_IMG} alt="Celebrando no Instagram"
+        <Image src={OBRIGADO_IMG} alt="Obrigado pela compra"
           width={900} height={500} className="rounded-3xl shadow-xl w-full object-cover" />
       </motion.div>
     </section>
