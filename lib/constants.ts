@@ -72,3 +72,5 @@ export const FAQS = [
   { q: "E se não funcionar para meu filho?",  a: "7 dias de garantia total — reembolso imediato sem burocracia, sem perguntas." },
   { q: "Quando recebo o acesso?",             a: "Imediatamente após a confirmação do pagamento, direto no seu e-mail." },
 ];
+
+export const FOOTER_LICENSE_NOTICE = "Aviso importante: este produto possui licença de uso pessoal, individual e intransferível, sendo vedado seu compartilhamento ou redistribuição, nos termos dos arts. 28 e 29 da Lei n° 9.610/1998. Esta cláusula deve ser lida com destaque, nos termos do art. 54, § 4², da Lei n° 8.078/1990.";

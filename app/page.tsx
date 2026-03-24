@@ -6,6 +6,7 @@ import Product  from "@/components/sections/Product";
 import Offer    from "@/components/sections/Offer";
 import FAQ      from "@/components/sections/FAQ";
 import FinalCTA from "@/components/sections/FinalCTA";
+import Footer   from "@/components/sections/Footer";
 
 export default function Home() {
   return (
@@ -18,6 +19,7 @@ export default function Home() {
       <Offer />
       <FAQ />
       <FinalCTA />
+      <Footer />
     </main>
   );
 }
