@@ -1,5 +1,25 @@
 export const KIWIFY_URL = "https://pay.kiwify.com.br/LNe6rom";
 
+export const UPSELL_URL = "https://pay.kiwify.com.br/LNe6rom"; // trocar pelo link real do upsell
+export const WHATSAPP_GROUP = "https://chat.whatsapp.com/SEU_GRUPO";
+export const INSTAGRAM_URL  = "https://instagram.com/universotea.aba";
+export const DOWNLOAD_URL   = ""; // será enviado por e-mail via Kiwify
+
+export const UPSELL_OFFER = {
+  title:       "Rotina ABA em Casa — Programa de 4 Semanas",
+  description: "Um guia completo passo a passo para estruturar a rotina de estimulação do seu filho em casa, com cronograma, atividades e registros semanais.",
+  originalPrice: "R$97",
+  salePrice:     "R$47",
+  timer:         15 * 60, // 15 minutos em segundos
+  bullets: [
+    "🗓️ Cronograma semanal de atividades ABA",
+    "📋 Fichas de registro de evolução por semana",
+    "🎯 Metas progressivas por nível de desenvolvimento",
+    "📱 Versão mobile-friendly para usar na terapia",
+    "🎁 Inclui 2 temas bônus extras de pareamento",
+  ],
+};
+
 export const THEMES = [
   { emoji: "🐾", label: "Animais",        color: "bg-green-100  text-green-700"  },
   { emoji: "🍎", label: "Frutas",         color: "bg-orange-100 text-orange-700" },
