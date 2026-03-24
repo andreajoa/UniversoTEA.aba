@@ -1,8 +1,15 @@
 export const KIWIFY_URL = "https://pay.kiwify.com.br/LNe6rom";
 
-export const UPSELL_URL = "https://pay.kiwify.com.br/LNe6rom"; // trocar pelo link real do upsell
+export const UPSELL_URL = "https://pay.kiwify.com.br/FYZiibq";
 export const WHATSAPP_GROUP = "https://chat.whatsapp.com/SEU_GRUPO";
 export const INSTAGRAM_URL  = "https://www.instagram.com/universo.tea.aba";
+
+// Instagram images for Thank You page
+export const INSTAGRAM_CELEBRATION_IMG = "/images/instagram-celebration.jpg";
+export const INSTAGRAM_CARD1_IMG = "/images/instagram-card1.jpg";
+export const INSTAGRAM_CARD2_IMG = "/images/instagram-card2.jpg";
+export const INSTAGRAM_LOGO_IMG = "/images/instagram-logo.jpg";
+
 export const DOWNLOAD_URL   = "https://www.dropbox.com/scl/fo/gwt69qbwcng4vjz0yu4hl/AKqkxlIjURXVrJ11rL-mW4Q?rlkey=mr1qa6ixtb9rqski16sjbcigy&st=92tau44r&dl=0";
 
 export const UPSELL_OFFER = {
@@ -10,7 +17,7 @@ export const UPSELL_OFFER = {
   description: "Um guia completo passo a passo para estruturar a rotina de estimulação do seu filho em casa, com cronograma, atividades e registros semanais.",
   originalPrice: "R$97",
   salePrice:     "R$47",
-  timer:         15 * 60, // 15 minutos em segundos
+  timer:         5 * 60, // 5 minutos em segundos
   bullets: [
     "🗓️ Cronograma semanal de atividades ABA",
     "📋 Fichas de registro de evolução por semana",

@@ -1,7 +1,6 @@
 import type { Metadata } from "next";
 import ConfirmHero    from "@/components/sections/thankyou/ConfirmHero";
 import NextSteps      from "@/components/sections/thankyou/NextSteps";
-import Upsell         from "@/components/sections/thankyou/Upsell";
 import Community      from "@/components/sections/thankyou/Community";
 import ThankYouFooter from "@/components/sections/thankyou/ThankYouFooter";
 
@@ -16,7 +15,6 @@ export default function ThankYouPage() {
     <main className="overflow-x-hidden bg-gradient-to-b from-blue-50 via-purple-50 to-white">
       <ConfirmHero />
       <NextSteps />
-      <Upsell />
       <Community />
       <ThankYouFooter />
     </main>
