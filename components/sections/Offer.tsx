@@ -6,8 +6,6 @@ import GuaranteeBadge from "@/components/ui/GuaranteeBadge";
 
 const items = [
   { emoji: "🎴", label: "Pack Completo — 108 Cards de Pareamento (PDF)", value: "R$97" },
-  { emoji: "🎁", label: "BÔNUS 1 — Guia Como Aplicar em Casa",           value: "R$47" },
-  { emoji: "🎁", label: "BÔNUS 2 — Tabela de Registro de Progresso",     value: "R$27" },
 ];
 
 export default function Offer() {
@@ -46,7 +44,7 @@ export default function Offer() {
           initial={{ opacity: 0, scale: 0.9 }} animate={inView ? { opacity: 1, scale: 1 } : {}}
           transition={{ duration: 0.6, delay: 0.5 }}
           className="bg-white rounded-2xl md:rounded-3xl p-4 md:p-8 shadow-xl border-2 border-cta text-center w-full px-4">
-          <p className="text-gray-400 line-through text-base md:text-lg mb-1">Valor total: R$171</p>
+          <p className="text-gray-400 line-through text-base md:text-lg mb-1">Valor total: R$97</p>
           <p className="font-display font-black text-4xl md:text-5xl lg:text-6xl text-cta mb-1">R$ 37</p>
           <p className="text-gray-500 text-sm mb-6">Preço de lançamento — pode subir a qualquer momento</p>
           <CTAButton className="w-full justify-center" />
