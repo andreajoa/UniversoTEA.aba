@@ -11,7 +11,7 @@ export const INSTAGRAM_CARD1_IMG = "/images/instagram-card1.jpg";
 export const INSTAGRAM_CARD2_IMG = "/images/instagram-card2.jpg";
 export const INSTAGRAM_LOGO_IMG = "/images/instagram-logo.jpg";
 
-export const DOWNLOAD_URL   = "https://www.dropbox.com/scl/fo/gwt69qbwcng4vjz0yu4hl/AKqkxlIjURXVrJ11rL-mW4Q?rlkey=mr1qa6ixtb9rqski16sjbcigy&st=92tau44r&dl=0";
+export const DOWNLOAD_URL   = "https://www.dropbox.com/scl/fo/c3c3r62aufjhob6hkbkb0/AMOErEwgH90NkdHc27WqU5w?rlkey=pd2g2x29gjlc1tr2cbvn3uuab&st=8ksxcke8&dl=0";
 
 export const UPSELL_OFFER = {
   title:       "Rotina ABA em Casa — Programa de 4 Semanas",
