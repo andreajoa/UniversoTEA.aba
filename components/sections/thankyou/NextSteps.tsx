@@ -1,6 +1,7 @@
 "use client";
 import { motion, useInView } from "framer-motion";
 import { useRef }            from "react";
+import { DOWNLOAD_URL } from "@/lib/constants";
 
 const steps = [
   {
@@ -69,6 +70,18 @@ export default function NextSteps() {
             </motion.div>
           ))}
         </div>
+
+        {/* Botão de download destacado */}
+        <motion.div
+          initial={{ opacity: 0, y: 20 }} animate={inView ? { opacity: 1, y: 0 } : {}} transition={{ duration: 0.6, delay: 0.8 }}
+          className="text-center">
+          <a href={DOWNLOAD_URL} target="_blank" rel="noopener noreferrer"
+            className="inline-flex items-center gap-2 bg-gradient-to-r from-cta to-green-500 text-white font-display font-black text-lg px-8 py-4 rounded-full shadow-lg hover:shadow-2xl hover:scale-105 transition-all animate-pulse-cta">
+            <span>📥</span>
+            <span>BAIXAR OS CARDS AGORA</span>
+          </a>
+          <p className="text-gray-400 text-xs mt-2">🔒 Link direto do Dropbox • Acesso imediato</p>
+        </motion.div>
 
         {/* Alert e-mail */}
         <motion.div
