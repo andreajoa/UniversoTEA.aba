@@ -74,3 +74,65 @@ export const FAQS = [
 ];
 
 export const FOOTER_LICENSE_NOTICE = "Aviso importante: este produto possui licença de uso pessoal, individual e intransferível, sendo vedado seu compartilhamento ou redistribuição, nos termos dos arts. 28 e 29 da Lei n° 9.610/1998. Esta cláusula deve ser lida com destaque, nos termos do art. 54, § 4², da Lei n° 8.078/1990.";
+
+// Informações sobre a autora
+export const AUTHOR_INFO = {
+  name: "Edijane Aguiar",
+  credentials: "Pedagoga/Psicomotricista/Psicopedagoga Clínica, Institucional e Hospitalar",
+  specialties: [
+    "Especialista em Análise do Comportamento Aplicada (ABA)",
+    "Especialista em Transtorno do Espectro Autista (TEA)",
+    "Especialista em Desenvolvimento Infantil por Opção do Autismo",
+  ],
+  experience: "Mais de uma década trabalhando com crianças, nasceu a necessidade de um material único, prático e funcional para estimular habilidades cruciais desenvolvimento de crianças típicas e atípicas.",
+  isMother: "Mãe típica e atípica",
+};
+
+// Benefícios principais do material
+export const MAIN_BENEFITS = [
+  "Aumentar o engajamento",
+  "Criar conexão com a criança",
+  "Tornar o atendimento mais leve",
+  "Facilitar toda a intervenção",
+];
+
+// O que será recebido
+export const WHAT_YOU_RECEIVE = [
+  { icon: "🧩", title: "Jogos de Pareamento", description: "108 cards terapêuticos" },
+  { icon: "🎨", title: "Atividades Lúdicas", description: "6 temas diferentes" },
+  { icon: "🎯", title: "Pranchas de Escolha", description: "Para facilitar comunicação" },
+  { icon: "😊", title: "Cartões de Interação", description: "Estimular habilidades sociais" },
+  { icon: "⭐", title: "Reforçadores Visuais", description: "3 níveis de dificuldade" },
+  { icon: "🎁", title: "Bônus Exclusivo", description: "Guia prático de pareamento" },
+];
+
+// Por que o kit funciona
+export const WHY_KIT_WORKS = [
+  "Simples e fácil de aplicar",
+  "Pronto para usar",
+  "Pensado para a realidade clínica",
+  "Ideal para terapeutas e famílias",
+];
+
+// Para quem é
+export const TARGET_AUDIENCE = [
+  { icon: "👩‍⚕️", title: "Terapeutas ABA", description: "Profissionais de ABA" },
+  { icon: "📚", title: "Psicopedagogos", description: "Especialistas em aprendizagem" },
+  { icon: "👨‍👩‍👧", title: "Pais e Cuidadores", description: "Famílias que querem ajudar" },
+  { icon: "🧑‍🏫", title: "Profissionais da Área Infantil", description: "Todos os profissionais da educação" },
+];
+
+// Resultados esperados
+export const EXPECTED_RESULTS = [
+  "Mais contato visual",
+  "Mais interação",
+  "Mais participação da criança",
+  "Mais evolução no atendimento",
+];
+
+// Preço promocional
+export const PROMOTIONAL_PRICE = {
+  original: "R$97",
+  current: "R$37",
+  warning: "Valor pode aumentar a qualquer momento",
+};
