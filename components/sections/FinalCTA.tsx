@@ -36,7 +36,7 @@ export default function FinalCTA() {
           </p>
           <GuaranteeBadge />
           <p className="text-gray-400 text-xs text-center">
-            🌈 <strong>@universo.tea.aba</strong> — Um universo de possibilidades no TEA
+            🌈 <strong>@universotea.aba</strong> — Um universo de possibilidades no TEA
           </p>
         </motion.div>
 

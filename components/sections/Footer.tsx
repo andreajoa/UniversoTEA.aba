@@ -15,11 +15,11 @@ export default function Footer() {
         {/* Informações adicionais */}
         <div className="mt-6 text-center">
           <p className="text-gray-500 text-xs sm:text-sm">
-            © {new Date().getFullYear()} UniversoTEA — Todos os direitos reservados
+            © {new Date().getFullYear()} UniversoTEA.aba — Todos os direitos reservados
           </p>
           <p className="text-gray-400 text-xs mt-2">
-            <a href="https://www.instagram.com/universo.tea.aba" target="_blank" rel="noopener noreferrer" className="hover:text-primary transition-colors">
-              🌈 @universo.tea.aba
+            <a href="https://www.instagram.com/universotea.aba" target="_blank" rel="noopener noreferrer" className="hover:text-primary transition-colors">
+              🌈 @universotea.aba
             </a>
           </p>
         </div>

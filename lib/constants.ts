@@ -2,7 +2,7 @@ export const KIWIFY_URL = "https://pay.kiwify.com.br/FYZiibq";
 
 export const UPSELL_URL = "https://pay.kiwify.com.br/FYZiibq";
 export const WHATSAPP_GROUP = "https://chat.whatsapp.com/SEU_GRUPO";
-export const INSTAGRAM_URL  = "https://www.instagram.com/universo.tea.aba";
+export const INSTAGRAM_URL = "https://www.instagram.com/universotea.aba";
 
 // Instagram images for Thank You page
 export const OBRIGADO_IMG = "/images/obrigado.png";

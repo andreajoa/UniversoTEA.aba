@@ -91,8 +91,8 @@ export default function NextSteps() {
           <p className="text-yellow-800 text-sm leading-relaxed">
             <strong>Não recebeu o e-mail?</strong> Verifique a pasta de spam/lixo eletrônico.
             Se não encontrar em 10 minutos, entre em contato pelo Instagram{" "}
-            <a href="https://www.instagram.com/universo.tea.aba" target="_blank"
-              className="text-primary font-bold underline">@universo.tea.aba</a>
+            <a href="https://www.instagram.com/universotea.aba" target="_blank"
+              className="text-primary font-bold underline">@universotea.aba</a>
           </p>
         </motion.div>
       </div>

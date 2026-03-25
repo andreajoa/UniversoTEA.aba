@@ -5,7 +5,7 @@ import Community      from "@/components/sections/thankyou/Community";
 import ThankYouFooter from "@/components/sections/thankyou/ThankYouFooter";
 
 export const metadata: Metadata = {
-  title: "Obrigado pela sua compra! | UniversoTEA",
+  title: "Obrigado pela sua compra! | UniversoTEA.aba",
   description: "Seu Pack de Pareamento ABA foi confirmado. Verifique seu e-mail para acessar o material.",
   robots: { index: false, follow: false }, // não indexar no Google
 };

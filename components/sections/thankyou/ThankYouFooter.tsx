@@ -16,13 +16,13 @@ export default function ThankYouFooter() {
         <motion.div
           initial={{ opacity: 0, scale: 0.9 }} animate={inView ? { opacity: 1, scale: 1 } : {}}
           transition={{ duration: 0.6 }}>
-          <Image src="/images/logo.png" alt="UniversoTEA" width={120} height={120} className="mx-auto" />
+          <Image src="/images/logo.png" alt="UniversoTEA.aba" width={120} height={120} className="mx-auto" />
         </motion.div>
 
         <motion.p
           initial={{ opacity: 0 }} animate={inView ? { opacity: 1 } : {}} transition={{ duration: 0.6, delay: 0.2 }}
           className="font-display font-black text-2xl text-gray-900">
-          Bem-vinda ao UniversoTEA! 🌈
+          Bem-vinda ao UniversoTEA.aba! 🌈
         </motion.p>
 
         <motion.p
@@ -37,9 +37,9 @@ export default function ThankYouFooter() {
           transition={{ duration: 0.5, delay: 0.4 }}
           className="flex flex-col items-center gap-1">
           <p className="text-gray-400 text-sm">Com carinho,</p>
-          <p className="font-display font-black text-primary text-lg inline-flex items-center gap-2">Equipe UniversoTEA <HeartIcon className="w-5 h-5" /></p>
+          <p className="font-display font-black text-primary text-lg inline-flex items-center gap-2">Equipe UniversoTEA.aba <HeartIcon className="w-5 h-5" /></p>
           <a href={INSTAGRAM_URL} target="_blank" rel="noopener noreferrer"
-            className="text-purple-500 text-sm hover:underline">@universo.tea.aba</a>
+            className="text-purple-500 text-sm hover:underline">@universotea.aba</a>
         </motion.div>
 
         <motion.p

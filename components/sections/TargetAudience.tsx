@@ -50,7 +50,7 @@ export default function TargetAudience() {
           transition={{ duration: 0.6, delay: 1.0 }}
           className="mt-12 text-center">
           <p className="text-gray-600 text-lg leading-relaxed max-w-3xl mx-auto">
-            Não importa sua experiência — o Pack de Pareamento ABA UniversoTEA foi desenvolvido para ser{" "}
+            Não importa sua experiência — o Pack de Pareamento ABA UniversoTEA.aba foi desenvolvido para ser{" "}
             <span className="font-bold text-primary">fácil de usar</span> e{" "}
             <span className="font-bold text-primary">adaptável</span> à sua realidade.
           </p>

@@ -22,7 +22,7 @@ export default function Community() {
         <motion.p
           initial={{ opacity: 0 }} animate={inView ? { opacity: 1 } : {}} transition={{ duration: 0.6, delay: 0.2 }}
           className="text-gray-600 text-lg leading-relaxed max-w-lg">
-          Junte-se a centenas de famílias e terapeutas que já fazem parte da comunidade UniversoTEA.
+          Junte-se a centenas de famílias e terapeutas que já fazem parte da comunidade UniversoTEA.aba.
           Tire dúvidas, compartilhe resultados e receba apoio.
         </motion.p>
 
@@ -34,7 +34,7 @@ export default function Community() {
             className="bg-green-50 border-2 border-green-200 rounded-2xl p-6 flex flex-col items-center gap-3 hover:bg-green-100 transition-colors cursor-pointer">
             <span className="text-5xl">💬</span>
             <p className="font-display font-black text-green-800 text-lg">Grupo WhatsApp</p>
-            <p className="text-green-700 text-sm">Comunidade de pais e terapeutas UniversoTEA</p>
+            <p className="text-green-700 text-sm">Comunidade de pais e terapeutas UniversoTEA.aba</p>
             <span className="bg-green-600 text-white px-4 py-2 rounded-full text-sm font-bold">
               ENTRAR NO GRUPO →
             </span>
@@ -46,7 +46,7 @@ export default function Community() {
             className="bg-purple-50 border-2 border-purple-200 rounded-2xl p-6 flex flex-col items-center gap-3 hover:bg-purple-100 transition-colors cursor-pointer">
             <span className="text-5xl">📸</span>
             <p className="font-display font-black text-purple-800 text-lg">Instagram</p>
-            <p className="text-purple-700 text-sm">@universo.tea.aba — dicas diárias de ABA</p>
+            <p className="text-purple-700 text-sm">@universotea.aba — dicas diárias de ABA</p>
             <span className="bg-purple-600 text-white px-4 py-2 rounded-full text-sm font-bold">
               SEGUIR AGORA →
             </span>

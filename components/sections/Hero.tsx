@@ -13,7 +13,7 @@ export default function Hero() {
           <div className="w-full">
             <Image 
               src="/images/banner website3.png" 
-              alt="Pack de Pareamento ABA UniversoTEA - Banner Principal" 
+              alt="Pack de Pareamento ABA UniversoTEA.aba - Banner Principal" 
               width={1920}
               height={960}
               priority
