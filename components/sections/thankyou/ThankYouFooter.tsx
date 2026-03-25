@@ -16,7 +16,7 @@ export default function ThankYouFooter() {
         <motion.div
           initial={{ opacity: 0, scale: 0.9 }} animate={inView ? { opacity: 1, scale: 1 } : {}}
           transition={{ duration: 0.6 }}>
-          <Image src="/images/logo.png" alt="UniversoTEA.aba" width={120} height={120} className="mx-auto" />
+          <Image src="/images/logobg.png" alt="UniversoTEA.aba" width={120} height={120} className="mx-auto" />
         </motion.div>
 
         <motion.p

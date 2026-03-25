@@ -22,7 +22,7 @@ export default function ConfirmHero() {
         initial={{ opacity: 0, scale: 0.8 }}
         animate={{ opacity: 1, scale: 1 }}
         transition={{ duration: 0.6 }}>
-        <Image src="/images/logo.png" alt="UniversoTEA.aba" width={140} height={140} className="mx-auto mb-4" />
+        <Image src="/images/logobg.png" alt="UniversoTEA.aba" width={140} height={140} className="mx-auto mb-4" />
       </motion.div>
 
       {/* Check animado */}
