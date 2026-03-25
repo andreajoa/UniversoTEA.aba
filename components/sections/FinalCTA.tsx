@@ -11,7 +11,7 @@ export default function FinalCTA() {
 
   return (
     <section ref={ref} className="bg-gradient-to-b from-purple-50 to-blue-100 py-20 px-4">
-      <div className="max-w-5xl mx-auto grid md:grid-cols-2 gap-12 items-center">
+      <div className="max-w-7xl mx-auto grid md:grid-cols-2 gap-12 items-center">
 
         <motion.div initial={{ opacity: 0, x: -40 }} animate={inView ? { opacity: 1, x: 0 } : {}} transition={{ duration: 0.7 }}>
           <Image src="/images/pais.png" alt="Família com os cards"

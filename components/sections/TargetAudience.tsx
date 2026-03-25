@@ -9,7 +9,7 @@ export default function TargetAudience() {
 
   return (
     <section ref={ref} className="bg-gradient-to-b from-blue-50 to-white py-16 px-4">
-      <div className="max-w-5xl mx-auto">
+      <div className="max-w-7xl mx-auto">
         <motion.div 
           initial={{ opacity: 0, y: 20 }} 
           animate={inView ? { opacity: 1, y: 0 } : {}} 

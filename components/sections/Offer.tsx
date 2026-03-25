@@ -14,7 +14,7 @@ export default function Offer() {
 
   return (
     <section ref={ref} className="bg-gradient-to-b from-blue-50 to-purple-50 py-16 px-4">
-      <div className="max-w-2xl mx-auto flex flex-col items-center gap-8">
+      <div className="max-w-6xl mx-auto flex flex-col items-center gap-8">
         <motion.h2
           initial={{ opacity: 0, y: 20 }} animate={inView ? { opacity: 1, y: 0 } : {}}
           transition={{ duration: 0.6 }}

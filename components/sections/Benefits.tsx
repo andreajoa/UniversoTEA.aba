@@ -9,7 +9,7 @@ export default function Benefits() {
 
   return (
     <section ref={ref} className="bg-gradient-to-b from-purple-50 to-blue-50 py-16 px-4">
-      <div className="max-w-5xl mx-auto">
+      <div className="max-w-7xl mx-auto">
         {/* Benefícios principais */}
         <motion.div 
           initial={{ opacity: 0, y: 20 }} 

@@ -18,15 +18,15 @@ export default function Pain() {
 
   return (
     <section ref={ref} className="bg-pain py-16 px-4">
-      <div className="max-w-3xl mx-auto">
+      <div className="max-w-6xl mx-auto">
         <motion.h2
           initial={{ opacity: 0, y: 20 }} animate={inView ? { opacity: 1, y: 0 } : {}}
           transition={{ duration: 0.6 }}
-          className="font-display font-black text-3xl md:text-4xl text-center text-gray-900 mb-10">
+          className="font-display font-black text-3xl md:text-4xl lg:text-5xl text-center text-gray-900 mb-10">
           Você já passou por alguma dessas situações? 😔
         </motion.h2>
 
-        <div className="flex flex-col gap-4">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
           {pains.map((pain, i) => (
             <motion.div key={i}
               initial={{ opacity: 0, x: -30 }} animate={inView ? { opacity: 1, x: 0 } : {}}

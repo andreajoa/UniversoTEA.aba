@@ -9,7 +9,7 @@ export default function Product() {
 
   return (
     <section ref={ref} className="bg-gradient-to-b from-white to-blue-50 py-16 px-4">
-      <div className="max-w-5xl mx-auto flex flex-col items-center gap-12">
+      <div className="max-w-7xl mx-auto flex flex-col items-center gap-12">
 
         <motion.div initial={{ opacity: 0, y: 20 }} animate={inView ? { opacity: 1, y: 0 } : {}}
           transition={{ duration: 0.6 }} className="text-center px-4">

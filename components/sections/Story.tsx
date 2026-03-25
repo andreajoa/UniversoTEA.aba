@@ -9,7 +9,7 @@ export default function Story() {
 
   return (
     <section ref={ref} className="bg-white py-16 px-4">
-      <div className="max-w-5xl mx-auto grid md:grid-cols-2 gap-12 items-center">
+      <div className="max-w-7xl mx-auto grid md:grid-cols-2 gap-12 items-center">
         <motion.div initial={{ opacity: 0, x: -40 }} animate={inView ? { opacity: 1, x: 0 } : {}} transition={{ duration: 0.7 }}>
           <Image src="/images/pais.png" alt="Família aplicando os cards" width={500} height={600}
             className="rounded-3xl shadow-xl w-full object-cover" />
