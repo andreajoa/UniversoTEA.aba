@@ -3,6 +3,7 @@ import { motion, useInView } from "framer-motion";
 import { useRef } from "react";
 import Image from "next/image";
 import { AUTHOR_INFO } from "@/lib/constants";
+import HeartIcon from "@/components/ui/HeartIcon";
 
 export default function Author() {
   const ref = useRef(null);
@@ -36,13 +37,14 @@ export default function Author() {
               animate={inView ? { opacity: 1, x: 0 } : {}}
               transition={{ duration: 0.6, delay: 0.3 }}
               className="flex-shrink-0">
-              <div className="w-40 h-40 md:w-56 md:h-56 rounded-full overflow-hidden border-4 border-primary shadow-lg">
+              <div className="w-48 h-48 md:w-64 md:h-64 rounded-full overflow-hidden border-4 border-primary shadow-lg">
                 <Image
-                  src="/images/pais.png"
+                  src="/images/perfil.jpeg"
                   alt="Edijane Aguiar"
-                  width={224}
-                  height={224}
+                  width={256}
+                  height={256}
                   className="w-full h-full object-cover"
+                  priority
                 />
               </div>
             </motion.div>
@@ -82,7 +84,7 @@ export default function Author() {
                 animate={inView ? { opacity: 1 } : {}}
                 transition={{ duration: 0.6, delay: 0.7 }}
                 className="text-gray-600 leading-relaxed mb-3">
-                <span className="font-semibold">💜 {AUTHOR_INFO.isMother}</span>
+                <span className="font-semibold inline-flex items-center gap-1"><HeartIcon className="w-5 h-5" /> {AUTHOR_INFO.isMother}</span>
               </motion.p>
 
               <motion.p

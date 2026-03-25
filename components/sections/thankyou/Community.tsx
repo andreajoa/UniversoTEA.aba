@@ -2,6 +2,7 @@
 import { motion, useInView } from "framer-motion";
 import { useRef }            from "react";
 import { WHATSAPP_GROUP, INSTAGRAM_URL } from "@/lib/constants";
+import HeartIcon from "@/components/ui/HeartIcon";
 
 export default function Community() {
   const ref    = useRef(null);
@@ -65,8 +66,8 @@ export default function Community() {
           </p>
           <a href={`https://wa.me/?text=Encontrei esse material incrível de pareamento ABA para crianças com TEA! https://universotea.com.br`}
             target="_blank" rel="noopener noreferrer"
-            className="inline-block bg-green-500 text-white font-bold px-6 py-3 rounded-full text-sm hover:bg-green-600 transition-colors">
-            💚 Compartilhar no WhatsApp
+            className="inline-flex items-center gap-2 bg-green-500 text-white font-bold px-6 py-3 rounded-full text-sm hover:bg-green-600 transition-colors">
+            <HeartIcon className="w-4 h-4" /> Compartilhar no WhatsApp
           </a>
         </motion.div>
       </div>

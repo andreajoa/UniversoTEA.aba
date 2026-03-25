@@ -3,6 +3,7 @@ import { motion, useInView } from "framer-motion";
 import { useRef }            from "react";
 import Image                 from "next/image";
 import { INSTAGRAM_URL }     from "@/lib/constants";
+import HeartIcon from "@/components/ui/HeartIcon";
 
 export default function ThankYouFooter() {
   const ref    = useRef(null);
@@ -36,7 +37,7 @@ export default function ThankYouFooter() {
           transition={{ duration: 0.5, delay: 0.4 }}
           className="flex flex-col items-center gap-1">
           <p className="text-gray-400 text-sm">Com carinho,</p>
-          <p className="font-display font-black text-primary text-lg">Equipe UniversoTEA 💙</p>
+          <p className="font-display font-black text-primary text-lg inline-flex items-center gap-2">Equipe UniversoTEA <HeartIcon className="w-5 h-5" /></p>
           <a href={INSTAGRAM_URL} target="_blank" rel="noopener noreferrer"
             className="text-purple-500 text-sm hover:underline">@universo.tea.aba</a>
         </motion.div>

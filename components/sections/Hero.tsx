@@ -26,7 +26,7 @@ export default function Hero() {
         <motion.h1
           initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.8, delay: 0.2 }}
           className="font-display font-black text-xl sm:text-2xl md:text-4xl lg:text-5xl xl:text-6xl text-gray-900 leading-tight max-w-5xl px-2">
-          🧩 Seu filho ainda não pareia?{" "}
+          🧩 Seu filho ainda não emparelha?{" "}
           <span className="text-primary">Esse material pode mudar isso ainda essa semana.</span>
         </motion.h1>
 

@@ -2,6 +2,7 @@
 import { motion, useInView } from "framer-motion";
 import { useRef } from "react";
 import { EXPECTED_RESULTS } from "@/lib/constants";
+import HeartIcon from "@/components/ui/HeartIcon";
 
 export default function Results() {
   const ref = useRef(null);
@@ -15,8 +16,8 @@ export default function Results() {
           animate={inView ? { opacity: 1, y: 0 } : {}} 
           transition={{ duration: 0.6 }}
           className="text-center mb-12">
-          <h2 className="font-display font-black text-3xl sm:text-4xl md:text-5xl text-gray-900 mb-4">
-            💙 Resultados que você pode esperar:
+          <h2 className="font-display font-black text-3xl sm:text-4xl md:text-5xl text-gray-900 mb-4 inline-flex items-center gap-2">
+            <HeartIcon className="w-8 h-8" /> Resultados que você pode esperar:
           </h2>
           <p className="text-gray-600 text-lg max-w-2xl mx-auto">
             Transformações reais com uso consistente do material
