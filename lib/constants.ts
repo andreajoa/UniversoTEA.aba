@@ -82,7 +82,7 @@ export const AUTHOR_INFO = {
   specialties: [
     "Especialista em Análise do Comportamento Aplicada (ABA)",
     "Especialista em Transtorno do Espectro Autista (TEA)",
-    "Especialista em Desenvolvimento Infantil por Opção do Autismo",
+    "Especialista em Desenvolvimento Infantil",
   ],
   experience: "Mais de uma década trabalhando com crianças, nasceu a necessidade de um material único, prático e funcional para estimular habilidades cruciais desenvolvimento de crianças típicas e atípicas.",
   isMother: "Mãe típica e atípica",
